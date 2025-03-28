@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube 4K Downloader</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+        input {
+            padding: 10px;
+            width: 60%;
+            font-size: 16px;
+        }
+        button {
+            padding: 10px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h2>YouTube 4K Video Downloader</h2>
+    <input type="text" id="video-url" placeholder="Enter YouTube video URL" required>
+    <button id="download-btn">Download</button>
+
+    <p id="status"></p>
+    <div id="download-link" style="display:none;"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
